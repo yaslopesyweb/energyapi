@@ -176,7 +176,8 @@ Na opção "Azure Web App Deploy", faça as alterações: em `Azure subscription
 Ao final do processo, a tela deverá ficar assim e você poderá acessar a aplicação entrando no domínio do seu Web App adicionando uma `/vaadin`.
 ![img_20.png](img_20.png)
 
-Essa é a tela da nossa aplicação:
+Essa é a tela inicial da nossa aplicação:
+![img_21.png](img_21.png)
 
 
 
