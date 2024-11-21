@@ -18,7 +18,7 @@ public class Report {
 
     @ManyToOne
     @JoinColumn(name = "device_analysis_id")
-    @JsonIgnoreProperties({"user"})
+    @JsonIgnoreProperties({"user", "devices"})
     private DeviceAnalysis deviceAnalysis;
 
     @Column(name = "generated_at", nullable = false)

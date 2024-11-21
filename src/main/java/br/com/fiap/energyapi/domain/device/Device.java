@@ -24,7 +24,7 @@ public class Device {
 
     @ManyToOne
     @JoinColumn(name = "energy_meter_id", nullable = false)
-    @JsonIgnoreProperties({"user"})
+    @JsonIgnoreProperties({"user", "devices"})
     private EnergyMeter energyMeter;
 
     @Column(name = "estimated_usage_hours")

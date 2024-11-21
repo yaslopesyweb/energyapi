@@ -1,6 +1,5 @@
 package br.com.fiap.energyapi.domain.device;
 
-import br.com.fiap.energyapi.domain.energyMeter.EnergyMeter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
